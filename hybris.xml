@@ -167,11 +167,9 @@
   <remove-project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <remove-project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
   <remove-project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,tradefed" />
-  <remove-project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,tradefed" />
   <remove-project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" />
 <!--   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" /> --> <!-- in keep.pathlist -->
   <remove-project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
-  <remove-project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <remove-project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <remove-project path="external/libedit" name="platform/external/libedit" />
   <remove-project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs" />
@@ -185,7 +183,6 @@
   <remove-project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <remove-project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <remove-project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
-  <remove-project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
 <!--   <project path="external/libpng" name="platform/external/libpng" groups="pdk" /> --> <!-- in keep.pathlist -->
   <remove-project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
 <!--   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" /> --> <!-- in keep.pathlist -->
@@ -274,14 +271,12 @@
   <remove-project path="external/vixl" name="platform/external/vixl" groups="pdk" />
 <!--   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" /> --> <!-- in keep.pathlist -->
   <remove-project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <remove-project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <remove-project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <remove-project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
 <!--   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" /> --> <!-- in keep.pathlist -->
 <!--   <project path="external/zlib" name="platform/external/zlib" groups="pdk" /> --> <!-- in keep.pathlist -->
   <remove-project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <remove-project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
 <!--   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" /> --> <!-- in keep.pathlist -->
   <remove-project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <remove-project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -357,7 +352,6 @@
 <!--   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" /> --> <!-- matches re: ^hardware/.* -->
 <!--   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" /> --> <!-- matches re: ^hardware/.* -->
 <!--   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" /> --> <!-- matches re: ^hardware/.* -->
-  <remove-project path="libcore" name="platform/libcore" groups="pdk" />
   <remove-project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <remove-project path="ndk" name="platform/ndk" />
   <remove-project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
