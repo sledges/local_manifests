@@ -13,7 +13,6 @@
 <!--   <project path="build" name="platform/build" groups="pdk,tradefed" > --> <!-- in keep.pathlist -->
   <remove-project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <remove-project path="art" name="platform/art" groups="pdk" />
-  <remove-project path="bionic" name="platform/bionic" groups="pdk" /><!-- redefined later in this file -->
   <remove-project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
 <!--   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" /> --> <!-- in keep.pathlist -->
   <remove-project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -293,7 +292,6 @@
   <remove-project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <remove-project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <remove-project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" /><!-- redefined later in this file -->
   <remove-project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <remove-project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <remove-project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -490,7 +488,6 @@
 <!--   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" /> --> <!-- in keep.pathlist -->
 <!--   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" /> --> <!-- in keep.pathlist -->
   <remove-project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <remove-project path="system/core" name="platform/system/core" groups="pdk" /><!-- redefined later in this file -->
 <!--   <project path="system/extras" name="platform/system/extras" groups="pdk" /> --> <!-- in keep.pathlist -->
   <remove-project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <remove-project path="system/media" name="platform/system/media" groups="pdk" />
@@ -512,13 +509,4 @@
   <remove-project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <remove-project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-<!-- Hybris extras -->
-  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" remote="github" revision="hybris-10.1" />
-  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" remote="github" revision="master" />
-
-<!-- Hybris overrides -->
-  <project path="external/busybox" name="mer-hybris/android_external_busybox" remote="github" revision="hybris-aosp-5.1.0_r5" />
-  <project path="bionic" name="mer-hybris/android_bionic" groups="pdk" remote="github" revision="hybris-aosp-5.1.0_r5" />
-  <project path="frameworks/native" name="mer-hybris/android_frameworks_native" groups="pdk" remote="github" revision="hybris-aosp-5.1.0_r5" />
-  <project path="system/core" name="mer-hybris/android_system_core" groups="pdk" remote="github" revision="hybris-aosp-5.1.0_r5" />
 </manifest>
