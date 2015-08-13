@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch="https://github.com" />
-
   <default revision="refs/tags/android-5.1.0_r5"
            remote="aosp"
            sync-j="4" />
