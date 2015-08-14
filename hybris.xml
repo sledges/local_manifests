@@ -11,7 +11,6 @@
 -->
 
 <!--   <project path="build" name="platform/build" groups="pdk,tradefed" > --> <!-- in keep.pathlist -->
-  <remove-project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <remove-project path="art" name="platform/art" groups="pdk" />
   <remove-project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
 <!--   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" /> --> <!-- in keep.pathlist -->
