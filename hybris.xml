@@ -129,7 +129,6 @@
   <remove-project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <remove-project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <remove-project path="external/fio" name="platform/external/fio" />
-  <remove-project path="external/flac" name="platform/external/flac" groups="pdk" />
   <remove-project path="external/fonttools" name="platform/external/fonttools" />
 <!--   <project path="external/freetype" name="platform/external/freetype" groups="pdk" /> --> <!-- in keep.pathlist -->
   <remove-project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
@@ -147,7 +146,6 @@
   <remove-project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
   <remove-project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
   <remove-project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
-  <remove-project path="external/icu" name="platform/external/icu" groups="pdk" />
   <remove-project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <remove-project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <remove-project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
@@ -157,7 +155,6 @@
   <remove-project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" />
   <remove-project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" />
   <remove-project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs" />
-  <remove-project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
   <remove-project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <remove-project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <remove-project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" />
@@ -174,25 +171,20 @@
   <remove-project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs" />
   <remove-project path="external/libhevc" name="platform/external/libhevc" />
   <remove-project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
-  <remove-project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <remove-project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
   <remove-project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
 <!--   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" /> --> <!-- in keep.pathlist -->
   <remove-project path="external/libnl" name="platform/external/libnl" groups="pdk" />
-  <remove-project path="external/libogg" name="platform/external/libogg" groups="pdk" />
-  <remove-project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <remove-project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
 <!--   <project path="external/libpng" name="platform/external/libpng" groups="pdk" /> --> <!-- in keep.pathlist -->
   <remove-project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
 <!--   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" /> --> <!-- in keep.pathlist -->
   <remove-project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
   <remove-project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
-  <remove-project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <remove-project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs" />
   <remove-project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs" />
   <remove-project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" />
   <remove-project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" />
-  <remove-project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <remove-project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs" />
   <remove-project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" />
   <remove-project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
@@ -249,8 +241,6 @@
 <!--   <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" /> --> <!-- in keep.pathlist -->
   <remove-project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <remove-project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
-  <remove-project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
-  <remove-project path="external/speex" name="platform/external/speex" groups="pdk" />
   <remove-project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <remove-project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" />
   <remove-project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
@@ -265,7 +255,6 @@
   <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <remove-project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <remove-project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
-  <remove-project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <remove-project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <remove-project path="external/vixl" name="platform/external/vixl" groups="pdk" />
 <!--   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" /> --> <!-- in keep.pathlist -->
@@ -351,7 +340,6 @@
 <!--   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" /> --> <!-- matches re: ^hardware/.* -->
 <!--   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" /> --> <!-- matches re: ^hardware/.* -->
 <!--   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" /> --> <!-- matches re: ^hardware/.* -->
-  <remove-project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <remove-project path="ndk" name="platform/ndk" />
   <remove-project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
@@ -439,7 +427,6 @@
   <remove-project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
   <remove-project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" />
   <remove-project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" />
-  <remove-project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" />
   <remove-project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs" />
   <remove-project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,pdk-cw-fs,x86" />
   <remove-project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
@@ -482,7 +469,6 @@
   <remove-project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
 <!--   <project path="system/extras" name="platform/system/extras" groups="pdk" /> --> <!-- in keep.pathlist -->
   <remove-project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <remove-project path="system/media" name="platform/system/media" groups="pdk" />
   <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
   <remove-project path="system/security" name="platform/system/security" groups="pdk" />
   <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
