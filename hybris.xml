@@ -469,7 +469,6 @@
   <remove-project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
 <!--   <project path="system/extras" name="platform/system/extras" groups="pdk" /> --> <!-- in keep.pathlist -->
   <remove-project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
   <remove-project path="system/security" name="platform/system/security" groups="pdk" />
   <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
   <remove-project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
